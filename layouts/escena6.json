@@ -1,0 +1,2405 @@
+{
+  "b": 255,
+  "disableInputWhenNotFocused": true,
+  "mangledName": "Escena6",
+  "name": "Escena6",
+  "r": 247,
+  "renderer3DWorldScale": 100,
+  "standardSortMethod": true,
+  "stopSoundsOnStartup": true,
+  "title": "",
+  "v": 249,
+  "uiSettings": {
+    "grid": false,
+    "gridType": "rectangular",
+    "gridWidth": 32,
+    "gridHeight": 32,
+    "gridDepth": 32,
+    "gridOffsetX": 0,
+    "gridOffsetY": 0,
+    "gridOffsetZ": 0,
+    "gridColor": 10401023,
+    "gridAlpha": 0.8,
+    "snap": false,
+    "zoomFactor": 0.8464571843450939,
+    "windowMask": false,
+    "selectedLayer": "",
+    "gameEditorMode": "instances-editor"
+  },
+  "objectsGroups": [],
+  "variables": [
+    {
+      "name": "BrujasMuertas",
+      "persistentUuid": "7306e12b-0d60-4ce7-8e32-a38ecb0ec52c",
+      "type": "number",
+      "value": 0
+    }
+  ],
+  "instances": [
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 604,
+      "keepRatio": true,
+      "layer": "",
+      "name": "FondoPantallaEscena2",
+      "persistentUuid": "3c40c24c-c9cf-4e22-a775-8ada96e651a9",
+      "width": 865,
+      "x": -1,
+      "y": 0,
+      "zOrder": 1,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 8,
+      "customSize": true,
+      "depth": 1,
+      "height": 164,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Dragon",
+      "persistentUuid": "fa498245-6bb6-4a8d-89bb-303c2907d543",
+      "width": 147,
+      "x": 38,
+      "y": 32,
+      "zOrder": 2,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 22,
+      "keepRatio": true,
+      "layer": "",
+      "name": "limite",
+      "opacity": 0,
+      "persistentUuid": "fc21a428-00fb-4b89-8633-aef14db9795b",
+      "width": 849,
+      "x": -1,
+      "y": -21,
+      "zOrder": 3,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 2,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Bloque_enemigos",
+      "opacity": 0,
+      "persistentUuid": "029501b2-d5b6-41b8-a7b7-4e00f34e1fee",
+      "width": 0,
+      "x": 674,
+      "y": 152,
+      "zOrder": 5,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Bloque_enemigos",
+      "opacity": 0,
+      "persistentUuid": "a969cdb3-0fc4-40a1-a74e-b0c6219474f1",
+      "width": 0,
+      "x": 659,
+      "y": 428,
+      "zOrder": 8,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 22,
+      "keepRatio": true,
+      "layer": "",
+      "name": "limite",
+      "opacity": 0,
+      "persistentUuid": "d3f6cc7d-70c9-41a7-aaa6-03c87fee1a76",
+      "width": 850,
+      "x": -2,
+      "y": 595,
+      "zOrder": 10,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 623,
+      "keepRatio": true,
+      "layer": "",
+      "name": "limite",
+      "opacity": 0,
+      "persistentUuid": "47777449-1569-4bdf-a793-bcc506718455",
+      "width": 88,
+      "x": -86,
+      "y": -24,
+      "zOrder": 11,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 623,
+      "keepRatio": true,
+      "layer": "",
+      "name": "limite",
+      "opacity": 0,
+      "persistentUuid": "1dbe6aa3-f2fd-4a6f-b983-ac35b6c66b45",
+      "width": 86,
+      "x": 844,
+      "y": -23,
+      "zOrder": 11,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 358,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Jefe_Troll",
+      "persistentUuid": "f5261fce-a3aa-4e30-8bbc-1fb0a9a823ff",
+      "width": 441,
+      "x": 348,
+      "y": 156,
+      "zOrder": 12,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "BarraVida",
+      "persistentUuid": "89b7f3ad-a056-4d75-895d-1b09a7dccb0c",
+      "width": 0,
+      "x": 576,
+      "y": 138,
+      "zOrder": 13,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    }
+  ],
+  "objects": [
+    {
+      "assetStoreId": "",
+      "bottomMargin": 0,
+      "height": 32,
+      "leftMargin": 0,
+      "name": "FondoPantallaEscena2",
+      "persistentUuid": "139c25fd-c5fe-4174-8cb6-ecfae79ff3e9",
+      "rightMargin": 0,
+      "texture": "Juego Dragon/escena5.jpeg",
+      "tiled": false,
+      "topMargin": 0,
+      "type": "PanelSpriteObject::PanelSprite",
+      "width": 32,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "Bloque_enemigos",
+      "persistentUuid": "ac73502f-ea47-44e1-9b88-1f2b51215383",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "BloqueParaEnemigos",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "NewSprite",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 64,
+                        "y": 0
+                      },
+                      {
+                        "x": 64,
+                        "y": 64
+                      },
+                      {
+                        "x": 0,
+                        "y": 64
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": false,
+      "assetStoreId": "",
+      "name": "NewSprite",
+      "persistentUuid": "19dcc0ac-e96f-4ad3-b760-380b4205abb0",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "Gemini_Generated_Image_8g4tgr8g4tgr8g4t__1_-removebg-preview",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.205,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Gemini_Generated_Image_8g4tgr8g4tgr8g4t__1_-removebg-preview7",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 2,
+                        "y": 120.5
+                      },
+                      {
+                        "x": 508,
+                        "y": 124.5
+                      },
+                      {
+                        "x": 508,
+                        "y": 413.5
+                      },
+                      {
+                        "x": 10,
+                        "y": 410.5
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Gemini_Generated_Image_8g4tgr8g4tgr8g4t__1_-removebg-preview7",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 2,
+                        "y": 120.5
+                      },
+                      {
+                        "x": 508,
+                        "y": 124.5
+                      },
+                      {
+                        "x": 508,
+                        "y": 413.5
+                      },
+                      {
+                        "x": 10,
+                        "y": 410.5
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Juego Dragon/Cab2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 2,
+                        "y": 120.5
+                      },
+                      {
+                        "x": 508,
+                        "y": 124.5
+                      },
+                      {
+                        "x": 508,
+                        "y": 413.5
+                      },
+                      {
+                        "x": 10,
+                        "y": 410.5
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Juego Dragon/Cab2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 2,
+                        "y": 120.5
+                      },
+                      {
+                        "x": 508,
+                        "y": 124.5
+                      },
+                      {
+                        "x": 508,
+                        "y": 413.5
+                      },
+                      {
+                        "x": 10,
+                        "y": 410.5
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "DragonMuerte",
+      "persistentUuid": "3a5e6c09-57af-456b-843d-e1daaf20ce12",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Dragon_perdio.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 28,
+                        "y": 137
+                      },
+                      {
+                        "x": 429,
+                        "y": 137
+                      },
+                      {
+                        "x": 429,
+                        "y": 442
+                      },
+                      {
+                        "x": 28,
+                        "y": 442
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "Fuego",
+      "persistentUuid": "71764b12-92d8-4470-b666-26594d2ac46a",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "Juego Dragon/Code_Generated_Image (3)",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Juego Dragon/Code_Generated_Image (3)10",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 12,
+                        "y": 13
+                      },
+                      {
+                        "x": 91,
+                        "y": 13
+                      },
+                      {
+                        "x": 91,
+                        "y": 98
+                      },
+                      {
+                        "x": 12,
+                        "y": 98
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "bold": true,
+      "italic": false,
+      "name": "Contador",
+      "persistentUuid": "f533184a-5b3b-4635-9c41-38161cc729f4",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "Brujas:0",
+      "font": "",
+      "textAlignment": "left",
+      "characterSize": 24,
+      "color": {
+        "b": 252,
+        "g": 252,
+        "r": 252
+      },
+      "content": {
+        "bold": true,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "Brujas:0",
+        "font": "",
+        "textAlignment": "left",
+        "verticalTextAlignment": "top",
+        "characterSize": 24,
+        "lineHeight": 0,
+        "color": "252;252;252"
+      }
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "Portal",
+      "persistentUuid": "599a547b-a76f-4d06-ab4c-cb7164dfd517",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.685,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Juego Dragon/Portalb.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 126,
+                        "y": 22
+                      },
+                      {
+                        "x": 507,
+                        "y": 22
+                      },
+                      {
+                        "x": 507,
+                        "y": 362
+                      },
+                      {
+                        "x": 126,
+                        "y": 362
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Juego Dragon/Portalnivel2_1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 126,
+                        "y": 22
+                      },
+                      {
+                        "x": 507,
+                        "y": 22
+                      },
+                      {
+                        "x": 507,
+                        "y": 362
+                      },
+                      {
+                        "x": 126,
+                        "y": 362
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Juego Dragon/Portalnivel2_2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 126,
+                        "y": 22
+                      },
+                      {
+                        "x": 507,
+                        "y": 22
+                      },
+                      {
+                        "x": 507,
+                        "y": 362
+                      },
+                      {
+                        "x": 126,
+                        "y": 362
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": false,
+      "assetStoreId": "",
+      "name": "Jefe_Troll",
+      "persistentUuid": "a715db2d-052a-42da-b4b7-d39d8e3fe7fc",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [
+        {
+          "name": "Vida",
+          "persistentUuid": "6b36044d-e116-49f7-b186-64a5d54f7dc6",
+          "type": "number",
+          "value": 5
+        }
+      ],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "Bounce",
+          "type": "Bounce::Bounce",
+          "BounceCount": 0
+        }
+      ],
+      "animations": [
+        {
+          "name": "Juego Dragon/Troll3",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.105,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Juego Dragon/Troll3.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 248.5,
+                        "y": 353.5
+                      },
+                      {
+                        "x": 131.5,
+                        "y": 162.5
+                      },
+                      {
+                        "x": 282.5,
+                        "y": 44.5
+                      },
+                      {
+                        "x": 609.5,
+                        "y": 129.5
+                      },
+                      {
+                        "x": 563.5,
+                        "y": 346.5
+                      },
+                      {
+                        "x": 419.5,
+                        "y": 261.5
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Juego Dragon/Troll3.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 248.5,
+                        "y": 353.5
+                      },
+                      {
+                        "x": 131.5,
+                        "y": 162.5
+                      },
+                      {
+                        "x": 282.5,
+                        "y": 44.5
+                      },
+                      {
+                        "x": 609.5,
+                        "y": 129.5
+                      },
+                      {
+                        "x": 563.5,
+                        "y": 346.5
+                      },
+                      {
+                        "x": 419.5,
+                        "y": 261.5
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Juego Dragon/Troll3.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 248.5,
+                        "y": 353.5
+                      },
+                      {
+                        "x": 131.5,
+                        "y": 162.5
+                      },
+                      {
+                        "x": 282.5,
+                        "y": 44.5
+                      },
+                      {
+                        "x": 609.5,
+                        "y": 129.5
+                      },
+                      {
+                        "x": 563.5,
+                        "y": 346.5
+                      },
+                      {
+                        "x": 419.5,
+                        "y": 261.5
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Juego Dragon/Troll1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 248.5,
+                        "y": 353.5
+                      },
+                      {
+                        "x": 131.5,
+                        "y": 162.5
+                      },
+                      {
+                        "x": 282.5,
+                        "y": 44.5
+                      },
+                      {
+                        "x": 609.5,
+                        "y": 129.5
+                      },
+                      {
+                        "x": 563.5,
+                        "y": 346.5
+                      },
+                      {
+                        "x": 419.5,
+                        "y": 261.5
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Juego Dragon/Troll3",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 248.5,
+                        "y": 353.5
+                      },
+                      {
+                        "x": 131.5,
+                        "y": 162.5
+                      },
+                      {
+                        "x": 282.5,
+                        "y": 44.5
+                      },
+                      {
+                        "x": 609.5,
+                        "y": 129.5
+                      },
+                      {
+                        "x": 563.5,
+                        "y": 346.5
+                      },
+                      {
+                        "x": 419.5,
+                        "y": 261.5
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Juego Dragon/Troll1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 248.5,
+                        "y": 353.5
+                      },
+                      {
+                        "x": 131.5,
+                        "y": 162.5
+                      },
+                      {
+                        "x": 282.5,
+                        "y": 44.5
+                      },
+                      {
+                        "x": 609.5,
+                        "y": 129.5
+                      },
+                      {
+                        "x": 563.5,
+                        "y": 346.5
+                      },
+                      {
+                        "x": 419.5,
+                        "y": 261.5
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Juego Dragon/Troll1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 248.5,
+                        "y": 353.5
+                      },
+                      {
+                        "x": 131.5,
+                        "y": 162.5
+                      },
+                      {
+                        "x": 282.5,
+                        "y": 44.5
+                      },
+                      {
+                        "x": 609.5,
+                        "y": 129.5
+                      },
+                      {
+                        "x": 563.5,
+                        "y": 346.5
+                      },
+                      {
+                        "x": 419.5,
+                        "y": 261.5
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Juego Dragon/Troll2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 248.5,
+                        "y": 353.5
+                      },
+                      {
+                        "x": 131.5,
+                        "y": 162.5
+                      },
+                      {
+                        "x": 282.5,
+                        "y": 44.5
+                      },
+                      {
+                        "x": 609.5,
+                        "y": 129.5
+                      },
+                      {
+                        "x": 563.5,
+                        "y": 346.5
+                      },
+                      {
+                        "x": 419.5,
+                        "y": 261.5
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Juego Dragon/Troll2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 248.5,
+                        "y": 353.5
+                      },
+                      {
+                        "x": 131.5,
+                        "y": 162.5
+                      },
+                      {
+                        "x": 282.5,
+                        "y": 44.5
+                      },
+                      {
+                        "x": 609.5,
+                        "y": 129.5
+                      },
+                      {
+                        "x": 563.5,
+                        "y": 346.5
+                      },
+                      {
+                        "x": 419.5,
+                        "y": 261.5
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Juego Dragon/Troll2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 248.5,
+                        "y": 353.5
+                      },
+                      {
+                        "x": 131.5,
+                        "y": 162.5
+                      },
+                      {
+                        "x": 282.5,
+                        "y": 44.5
+                      },
+                      {
+                        "x": 609.5,
+                        "y": 129.5
+                      },
+                      {
+                        "x": 563.5,
+                        "y": 346.5
+                      },
+                      {
+                        "x": 419.5,
+                        "y": 261.5
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "BarraVida",
+      "persistentUuid": "9c23587b-34e6-4a3e-95de-6efeae3b4101",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "BarraVidaTrol",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "BarraVidaTrol",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 1,
+                        "y": 6
+                      },
+                      {
+                        "x": 64,
+                        "y": 6
+                      },
+                      {
+                        "x": 64,
+                        "y": 46
+                      },
+                      {
+                        "x": 1,
+                        "y": 46
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "Explosion",
+      "persistentUuid": "323f198b-4410-4d87-bb06-4e4ee83d1fdb",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "Juego Dragon/Explosion",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.4,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Juego Dragon/Explosion2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 52,
+                        "y": 14
+                      },
+                      {
+                        "x": 616,
+                        "y": 14
+                      },
+                      {
+                        "x": 616,
+                        "y": 364
+                      },
+                      {
+                        "x": 52,
+                        "y": 364
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Juego Dragon/Explosion.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 52,
+                        "y": 14
+                      },
+                      {
+                        "x": 616,
+                        "y": 14
+                      },
+                      {
+                        "x": 616,
+                        "y": 364
+                      },
+                      {
+                        "x": 52,
+                        "y": 364
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "objectsFolderStructure": {
+    "folderName": "__ROOT",
+    "children": [
+      {
+        "objectName": "FondoPantallaEscena2"
+      },
+      {
+        "objectName": "Bloque_enemigos"
+      },
+      {
+        "objectName": "NewSprite"
+      },
+      {
+        "objectName": "DragonMuerte"
+      },
+      {
+        "objectName": "Fuego"
+      },
+      {
+        "objectName": "Contador"
+      },
+      {
+        "objectName": "Portal"
+      },
+      {
+        "objectName": "Jefe_Troll"
+      },
+      {
+        "objectName": "BarraVida"
+      },
+      {
+        "objectName": "Explosion"
+      }
+    ]
+  },
+  "events": [
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": []
+    },
+    {
+      "type": "BuiltinCommonInstructions::Link",
+      "include": {
+        "includeConfig": 0
+      },
+      "target": "ControlesDragon"
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "SceneJustBegins"
+          },
+          "parameters": [
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "ResetTimer"
+          },
+          "parameters": [
+            "",
+            "\"temporizador1_Enemigos\""
+          ]
+        },
+        {
+          "type": {
+            "value": "AddForceXY"
+          },
+          "parameters": [
+            "Jefe_Troll",
+            "-150",
+            "0",
+            "1"
+          ]
+        },
+        {
+          "type": {
+            "value": "PlayMusic"
+          },
+          "parameters": [
+            "",
+            "Juego Dragon/Sonidos/Pelea.mp3",
+            "yes",
+            "50",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "PlaySound"
+          },
+          "parameters": [
+            "",
+            "Juego Dragon/Sonidos/Ogro (2).mp3",
+            "",
+            "100",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "CompareTimer"
+          },
+          "parameters": [
+            "",
+            "\"temporizador1_Enemigos\"",
+            ">=",
+            "3"
+          ]
+        },
+        {
+          "type": {
+            "value": "PickRandomInstance"
+          },
+          "parameters": [
+            "",
+            "Bloque_enemigos"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Create"
+          },
+          "parameters": [
+            "",
+            "NewSprite",
+            "Bloque_enemigos.X()",
+            "Bloque_enemigos.Y()",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "ResetTimer"
+          },
+          "parameters": [
+            "",
+            "\"temporizador1_Enemigos\""
+          ]
+        },
+        {
+          "type": {
+            "value": "SetZOrder"
+          },
+          "parameters": [
+            "NewSprite",
+            "=",
+            "50"
+          ]
+        },
+        {
+          "type": {
+            "value": "AddForceXY"
+          },
+          "parameters": [
+            "NewSprite",
+            "-200",
+            "0",
+            "1"
+          ]
+        },
+        {
+          "type": {
+            "value": "ScalableCapability::ScalableBehavior::SetValue"
+          },
+          "parameters": [
+            "NewSprite",
+            "Scale",
+            "=",
+            "0.20\n\n\n\n"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "CollisionNP"
+          },
+          "parameters": [
+            "Dragon",
+            "NewSprite",
+            "",
+            "",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Create"
+          },
+          "parameters": [
+            "",
+            "DragonMuerte",
+            "Dragon.X()",
+            "Dragon.Y()",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "PlaySound"
+          },
+          "parameters": [
+            "",
+            "Juego Dragon/Sonidos/MuerteDragon.mp3",
+            "",
+            "55",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "ScalableCapability::ScalableBehavior::SetValue"
+          },
+          "parameters": [
+            "DragonMuerte",
+            "Scale",
+            "=",
+            "0.4\n"
+          ]
+        },
+        {
+          "type": {
+            "value": "Delete"
+          },
+          "parameters": [
+            "Dragon",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Wait"
+          },
+          "parameters": [
+            "1.5"
+          ]
+        },
+        {
+          "type": {
+            "value": "Delete"
+          },
+          "parameters": [
+            "DragonMuerte",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Wait"
+          },
+          "parameters": [
+            "0.4"
+          ]
+        },
+        {
+          "type": {
+            "value": "Scene"
+          },
+          "parameters": [
+            "",
+            "\"Escena6\"",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "KeyFromTextPressed"
+          },
+          "parameters": [
+            "",
+            "\"Space\""
+          ]
+        },
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
+        },
+        {
+          "type": {
+            "inverted": true,
+            "value": "FlippableCapability::FlippableBehavior::FlippedX"
+          },
+          "parameters": [
+            "Dragon",
+            "Flippable"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Create"
+          },
+          "parameters": [
+            "",
+            "Fuego",
+            "Dragon.X(\"Boca\")",
+            "Dragon.Y(\"Boca\")",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "AddForceXY"
+          },
+          "parameters": [
+            "Fuego",
+            "500",
+            "0",
+            "1"
+          ]
+        },
+        {
+          "type": {
+            "value": "PlaySound"
+          },
+          "parameters": [
+            "",
+            "Juego Dragon/Sonidos/Disparo.mp3",
+            "",
+            "55",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "CollisionNP"
+          },
+          "parameters": [
+            "Fuego",
+            "NewSprite",
+            "",
+            "",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Delete"
+          },
+          "parameters": [
+            "Fuego",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Delete"
+          },
+          "parameters": [
+            "NewSprite",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "SetNumberVariable"
+          },
+          "parameters": [
+            "BrujasMuertas",
+            "+",
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": [
+        {
+          "type": {
+            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+          },
+          "parameters": [
+            "Contador",
+            "Text",
+            "=",
+            "\"Brujas: \" + ToString(Variable(BrujasMuertas))"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": []
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "CollisionNP"
+          },
+          "parameters": [
+            "Dragon",
+            "limite",
+            "",
+            "",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "SeparateFromObjects"
+          },
+          "parameters": [
+            "Dragon",
+            "limite",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "CollisionNP"
+          },
+          "parameters": [
+            "Dragon",
+            "Portal",
+            "",
+            "",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Scene"
+          },
+          "parameters": [
+            "",
+            "\"Cinematica\"",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "SetZOrder"
+          },
+          "parameters": [
+            "Portal",
+            "=",
+            "100"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "KeyFromTextPressed"
+          },
+          "parameters": [
+            "",
+            "\"Space\""
+          ]
+        },
+        {
+          "type": {
+            "value": "FlippableCapability::FlippableBehavior::FlippedX"
+          },
+          "parameters": [
+            "Dragon",
+            "Flippable"
+          ]
+        },
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Create"
+          },
+          "parameters": [
+            "",
+            "Fuego",
+            "Dragon.X(\"Boca\")",
+            "Dragon.Y(\"Boca\")",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "AddForceXY"
+          },
+          "parameters": [
+            "Fuego",
+            "-500",
+            "0",
+            "1"
+          ]
+        },
+        {
+          "type": {
+            "value": "FlippableCapability::FlippableBehavior::FlipX"
+          },
+          "parameters": [
+            "Fuego",
+            "Flippable",
+            "yes"
+          ]
+        },
+        {
+          "type": {
+            "value": "PlaySound"
+          },
+          "parameters": [
+            "",
+            "Juego Dragon/Sonidos/Disparo.mp3",
+            "",
+            "55",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "CollisionNP"
+          },
+          "parameters": [
+            "Jefe_Troll",
+            "limite",
+            "",
+            "",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Bounce::Bounce::BounceOff"
+          },
+          "parameters": [
+            "Jefe_Troll",
+            "Bounce",
+            "limite",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": [
+        {
+          "type": {
+            "value": "SetXY"
+          },
+          "parameters": [
+            "BarraVida",
+            "=",
+            "Jefe_Troll.X() + 220",
+            "=",
+            "Jefe_Troll.Y() - 10"
+          ]
+        },
+        {
+          "type": {
+            "value": "ResizableCapability::ResizableBehavior::SetWidth"
+          },
+          "parameters": [
+            "BarraVida",
+            "Resizable",
+            "=",
+            "Jefe_Troll.Variable(Vida) * 10"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "CollisionNP"
+          },
+          "parameters": [
+            "Fuego",
+            "Jefe_Troll",
+            "",
+            "",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Delete"
+          },
+          "parameters": [
+            "Fuego",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "SetNumberObjectVariable"
+          },
+          "parameters": [
+            "Jefe_Troll",
+            "Vida",
+            "-",
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "NumberObjectVariable"
+          },
+          "parameters": [
+            "Jefe_Troll",
+            "Vida",
+            "<=",
+            "0"
+          ]
+        },
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Create"
+          },
+          "parameters": [
+            "",
+            "Explosion",
+            "Jefe_Troll.X()",
+            "Jefe_Troll.Y()",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "PlaySound"
+          },
+          "parameters": [
+            "",
+            "Juego Dragon/Sonidos/boom.mp3",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Delete"
+          },
+          "parameters": [
+            "Jefe_Troll",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Delete"
+          },
+          "parameters": [
+            "BarraVida",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Wait"
+          },
+          "parameters": [
+            "0.8"
+          ]
+        },
+        {
+          "type": {
+            "value": "Delete"
+          },
+          "parameters": [
+            "Explosion",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Create"
+          },
+          "parameters": [
+            "",
+            "Portal",
+            "430",
+            "290",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "ScalableCapability::ScalableBehavior::SetValue"
+          },
+          "parameters": [
+            "Portal",
+            "Scale",
+            "=",
+            "0.50"
+          ]
+        },
+        {
+          "type": {
+            "value": "PlaySound"
+          },
+          "parameters": [
+            "",
+            "Juego Dragon/Sonidos/Clic Boton.mp3",
+            "",
+            "",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "CollisionNP"
+          },
+          "parameters": [
+            "Dragon",
+            "Jefe_Troll",
+            "",
+            "",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Create"
+          },
+          "parameters": [
+            "",
+            "DragonMuerte",
+            "Dragon.X()",
+            "Dragon.Y()",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "PlaySound"
+          },
+          "parameters": [
+            "",
+            "Juego Dragon/Sonidos/MuerteDragon.mp3",
+            "",
+            "55",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "ScalableCapability::ScalableBehavior::SetValue"
+          },
+          "parameters": [
+            "DragonMuerte",
+            "Scale",
+            "=",
+            "0.4\n"
+          ]
+        },
+        {
+          "type": {
+            "value": "Delete"
+          },
+          "parameters": [
+            "Dragon",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Wait"
+          },
+          "parameters": [
+            "1.5"
+          ]
+        },
+        {
+          "type": {
+            "value": "Delete"
+          },
+          "parameters": [
+            "DragonMuerte",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Wait"
+          },
+          "parameters": [
+            "0.4"
+          ]
+        },
+        {
+          "type": {
+            "value": "Scene"
+          },
+          "parameters": [
+            "",
+            "\"Escena6\"",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": []
+    }
+  ],
+  "layers": [
+    {
+      "ambientLightColorB": 200,
+      "ambientLightColorG": 200,
+      "ambientLightColorR": 200,
+      "camera2DPlaneMaxDrawingDistance": 5000,
+      "camera3DFarPlaneDistance": 10000,
+      "camera3DFieldOfView": 45,
+      "camera3DNearPlaneDistance": 3,
+      "cameraType": "",
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "isLocked": false,
+      "name": "",
+      "renderingType": "",
+      "visibility": true,
+      "cameras": [
+        {
+          "defaultSize": true,
+          "defaultViewport": true,
+          "height": 0,
+          "viewportBottom": 1,
+          "viewportLeft": 0,
+          "viewportRight": 1,
+          "viewportTop": 0,
+          "width": 0
+        }
+      ],
+      "effects": [
+        {
+          "effectType": "Scene3D::HemisphereLight",
+          "name": "3D Ambient Hemisphere Light",
+          "doubleParameters": {
+            "elevation": 40,
+            "intensity": 0.33,
+            "rotation": 300
+          },
+          "stringParameters": {
+            "groundColor": "127;127;127",
+            "skyColor": "255;255;255",
+            "top": "Z+"
+          },
+          "booleanParameters": {}
+        },
+        {
+          "effectType": "Scene3D::DirectionalLight",
+          "name": "3D Sun Light",
+          "doubleParameters": {
+            "distanceFromCamera": 1500,
+            "elevation": 40,
+            "frustumSize": 4000,
+            "intensity": 0.75,
+            "minimumShadowBias": 0,
+            "rotation": 300,
+            "shadowDistance": 2000
+          },
+          "stringParameters": {
+            "color": "255;255;255",
+            "shadowQuality": "medium",
+            "shadowRenderingMode": "fittedToCameraView",
+            "top": "Z+"
+          },
+          "booleanParameters": {
+            "isCastingShadow": true
+          }
+        }
+      ]
+    }
+  ],
+  "behaviorsSharedData": [
+    {
+      "name": "Animation",
+      "type": "AnimatableCapability::AnimatableBehavior"
+    },
+    {
+      "name": "Bounce",
+      "type": "Bounce::Bounce"
+    },
+    {
+      "name": "Effect",
+      "type": "EffectCapability::EffectBehavior"
+    },
+    {
+      "name": "Flippable",
+      "type": "FlippableCapability::FlippableBehavior"
+    },
+    {
+      "name": "Opacity",
+      "type": "OpacityCapability::OpacityBehavior"
+    },
+    {
+      "name": "PathfindingObstacle",
+      "type": "PathfindingBehavior::PathfindingObstacleBehavior"
+    },
+    {
+      "name": "Resizable",
+      "type": "ResizableCapability::ResizableBehavior"
+    },
+    {
+      "name": "Scale",
+      "type": "ScalableCapability::ScalableBehavior"
+    },
+    {
+      "name": "Text",
+      "type": "TextContainerCapability::TextContainerBehavior"
+    },
+    {
+      "name": "TopDownMovement",
+      "type": "TopDownMovementBehavior::TopDownMovementBehavior"
+    }
+  ]
+}

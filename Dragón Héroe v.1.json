@@ -1,0 +1,1864 @@
+{
+  "firstLayout": "",
+  "gdVersion": {
+    "build": 287,
+    "major": 5,
+    "minor": 6,
+    "revision": 0
+  },
+  "initialGDVersion": "5.6.285",
+  "properties": {
+    "adaptGameResolutionAtRuntime": true,
+    "antialiasingMode": "MSAA",
+    "antialisingEnabledOnMobile": false,
+    "folderProject": true,
+    "orientation": "default",
+    "packageName": "com.DragonHero.gamename",
+    "pixelsRounding": true,
+    "projectUuid": "97f0266a-de41-450c-b165-c23443d95219",
+    "scaleMode": "nearest",
+    "sizeOnStartupMode": "",
+    "templateSlug": "",
+    "version": "1.0.0",
+    "name": "Dragón Héroe v.1",
+    "description": "",
+    "author": "Fernando Villarroel Machuca ",
+    "windowWidth": 845,
+    "windowHeight": 600,
+    "latestCompilationDirectory": "",
+    "maxFPS": 60,
+    "minFPS": 20,
+    "verticalSync": false,
+    "platformSpecificAssets": {
+      "android-icon-144": "",
+      "android-icon-192": "",
+      "android-icon-36": "",
+      "android-icon-48": "",
+      "android-icon-72": "",
+      "android-icon-96": "",
+      "android-windowSplashScreenAnimatedIcon": "",
+      "desktop-icon-512": "",
+      "ios-icon-100": "",
+      "ios-icon-1024": "",
+      "ios-icon-114": "",
+      "ios-icon-120": "",
+      "ios-icon-144": "",
+      "ios-icon-152": "",
+      "ios-icon-167": "",
+      "ios-icon-180": "",
+      "ios-icon-20": "",
+      "ios-icon-29": "",
+      "ios-icon-40": "",
+      "ios-icon-50": "",
+      "ios-icon-57": "",
+      "ios-icon-58": "",
+      "ios-icon-60": "",
+      "ios-icon-72": "",
+      "ios-icon-76": "",
+      "ios-icon-80": "",
+      "ios-icon-87": ""
+    },
+    "loadingScreen": {
+      "backgroundColor": 0,
+      "backgroundFadeInDuration": 0.2,
+      "backgroundImageResourceName": "Juego Dragon/IconoVidas.png",
+      "gdevelopLogoStyle": "light-colored",
+      "logoAndProgressFadeInDuration": 0.2,
+      "logoAndProgressLogoFadeInDelay": 0,
+      "minDuration": 1.5,
+      "progressBarColor": 16777215,
+      "progressBarHeight": 20,
+      "progressBarMaxWidth": 200,
+      "progressBarMinWidth": 40,
+      "progressBarWidthPercent": 30,
+      "showGDevelopSplash": true,
+      "showProgressBar": true
+    },
+    "watermark": {
+      "placement": "bottom-left",
+      "showWatermark": true
+    },
+    "authorIds": [
+      "tI9PXy6NBAaaHYbvw0VhrQxgdiP2"
+    ],
+    "authorUsernames": [],
+    "categories": [],
+    "playableDevices": [],
+    "extensionProperties": [],
+    "platforms": [
+      {
+        "name": "GDevelop JS platform"
+      }
+    ],
+    "currentPlatform": "GDevelop JS platform"
+  },
+  "resources": {
+    "resources": [
+      {
+        "file": "Juego Dragon/Gemini_Generated_Image_q43usjq43usjq43u.jpeg",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"Juego Dragon/Gemini_Generated_Image_q43usjq43usjq43u.jpeg\",\"extension\":\".png\",\"pskl\":{}}",
+        "name": "Juego Dragon/Gemini_Generated_Image_q43usjq43usjq43u.jpeg",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Juego Dragon/fondo1.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "Juego Dragon/fondo1.jpg",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Juego Dragon/Gemini_Generated_Image_vcas4evcas4evcas.jpeg",
+        "kind": "image",
+        "metadata": "",
+        "name": "Juego Dragon/Gemini_Generated_Image_vcas4evcas4evcas.jpeg",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Juego Dragon/Code_Generated_Image (3).png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Juego Dragon/Code_Generated_Image (3).png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Juego Dragon/Code_Generated_Image (4).png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Juego Dragon/Code_Generated_Image (4).png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Juego Dragon/Code_Generated_Image (5).png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Juego Dragon/Code_Generated_Image (5).png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Juego Dragon/Code_Generated_Image (6).png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Juego Dragon/Code_Generated_Image (6).png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Juego Dragon/Gemini_Generated_Image_q43usjq43usjq43u (3).jpeg",
+        "kind": "image",
+        "metadata": "",
+        "name": "Juego Dragon/Gemini_Generated_Image_q43usjq43usjq43u (3).jpeg",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Juego Dragon/Gemini_Generated_Image_q43usjq43usjq43u (2).jpeg",
+        "kind": "image",
+        "metadata": "",
+        "name": "Juego Dragon/Gemini_Generated_Image_q43usjq43usjq43u (2).jpeg",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Juego Dragon/Gemini_Generated_Image_q43usjq43usjq43u (1).jpeg",
+        "kind": "image",
+        "metadata": "",
+        "name": "Juego Dragon/Gemini_Generated_Image_q43usjq43usjq43u (1).jpeg",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Juego Dragon/Gemini_Generated_Image_lx1c22lx1c22lx1c.jpeg",
+        "kind": "image",
+        "metadata": "",
+        "name": "Juego Dragon/Gemini_Generated_Image_lx1c22lx1c22lx1c.jpeg",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Limite escena.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Limite escena",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/FuegodelDragon.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "FuegodelDragon",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Juego Dragon/Code_Generated_Image (3).png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Juego Dragon/Code_Generated_Image (3)",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Juego Dragon/Code_Generated_Image (3)2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Juego Dragon/Code_Generated_Image (3)2",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Juego Dragon/Code_Generated_Image (3)3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Juego Dragon/Code_Generated_Image (3)3",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Juego Dragon/Code_Generated_Image (3)4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Juego Dragon/Code_Generated_Image (3)4",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Juego Dragon/Code_Generated_Image (3)5.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Juego Dragon/Code_Generated_Image (3)5",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Juego Dragon/Code_Generated_Image (3)6.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Juego Dragon/Code_Generated_Image (3)6",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Juego Dragon/Code_Generated_Image (3)7.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Juego Dragon/Code_Generated_Image (3)7",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Juego Dragon/Gemini_Generated_Image_9g44349g44349g44.jpeg",
+        "kind": "image",
+        "metadata": "",
+        "name": "Juego Dragon/Gemini_Generated_Image_9g44349g44349g44.jpeg",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/8BitOperatorPlus8Regular_Edited.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\8BitOperatorPlus8Regular_Edited.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/Pixel art/15c1797cbcb41c3a753b6bbb21cfa60284cfaf81c9891c3abf78a8e0e1cacf59_8BitOperatorPlus8Regular_Edited.png",
+          "name": "8BitOperatorPlus8Regular_Edited.png"
+        }
+      },
+      {
+        "file": "assets/Small Red Button_Hovered.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Small Red Button_Hovered.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/Pixel art/d63b2fa1436235851bd03b8000942eb3deab31a96f6d3afec025cfebc329a370_Small Red Button_Hovered.png",
+          "name": "Small Red Button_Hovered.png"
+        }
+      },
+      {
+        "file": "assets/Small Red Button_Idle.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Small Red Button_Idle.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/Pixel art/de41b4dea946f89f15f694402f457883f08aa0d4f60edfd38dca601e82a5dd5e_Small Red Button_Idle.png",
+          "name": "Small Red Button_Idle.png"
+        }
+      },
+      {
+        "file": "assets/Small Red Button_Pressed.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Small Red Button_Pressed.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/Pixel art/290ec24f0eb40e1cebd908a215ed5e6d36dea97c835bf3280c17f3e3f30243dd_Small Red Button_Pressed.png",
+          "name": "Small Red Button_Pressed.png"
+        }
+      },
+      {
+        "file": "assets/8BitOperatorPlus8Regular_Edited.fnt",
+        "kind": "bitmapFont",
+        "metadata": "",
+        "name": "assets\\8BitOperatorPlus8Regular_Edited.fnt",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/Pixel art/6b410f07a3a02e721a49d41795e84b56707ef28ac4d095d55f1fd1093760e134_8BitOperatorPlus8Regular_Edited.fnt",
+          "name": "8BitOperatorPlus8Regular_Edited.fnt"
+        }
+      },
+      {
+        "file": "assets/NewSprite.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NewSprite.png\"}",
+        "name": "NewSprite",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Gemini_Generated_Image_2l7l1g2l7l1g2l7l.jpeg",
+        "kind": "image",
+        "metadata": "",
+        "name": "Gemini_Generated_Image_2l7l1g2l7l1g2l7l.jpeg",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Gemini_Generated_Image_7li8q27li8q27li8.jpeg",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"Gemini_Generated_Image_7li8q27li8q27li8.jpeg\",\"extension\":\".png\"}",
+        "name": "Gemini_Generated_Image_7li8q27li8q27li8.jpeg",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Gemini_Generated_Image_7li8q27li8q27li8.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Gemini_Generated_Image_7li8q27li8q27li8",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Gemini_Generated_Image_8g4tgr8g4tgr8g4t__1_-removebg-preview.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"Gemini_Generated_Image_8g4tgr8g4tgr8g4t__1_-removebg-preview.png\",\"extension\":\".png\"}",
+        "name": "Gemini_Generated_Image_8g4tgr8g4tgr8g4t__1_-removebg-preview.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Gemini_Generated_Image_keqe6tkeqe6tkeqe.jpeg",
+        "kind": "image",
+        "metadata": "",
+        "name": "Gemini_Generated_Image_keqe6tkeqe6tkeqe.jpeg",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Dragon_perdio.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Dragon_perdio.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Juego Dragon/Code_Generated_Image (3)8.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Juego Dragon/Code_Generated_Image (3)8",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Juego Dragon/Pantalla_Principal.jpeg",
+        "kind": "image",
+        "metadata": "",
+        "name": "Juego Dragon/Pantalla_Principal.jpeg",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Gemini_Generated_Image_8g4tgr8g4tgr8g4t__1_-removebg-preview.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Gemini_Generated_Image_8g4tgr8g4tgr8g4t__1_-removebg-preview",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Juego Dragon/Escena3.jpeg",
+        "kind": "image",
+        "metadata": "",
+        "name": "Juego Dragon/Escena3.jpeg",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Juego Dragon/Escena2.jpeg",
+        "kind": "image",
+        "metadata": "",
+        "name": "Juego Dragon/Escena2.jpeg",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Juego Dragon/Portal.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Juego Dragon/Portal.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Juego Dragon/Portalb.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Juego Dragon/Portalb.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Juego Dragon/PortalA.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Juego Dragon/PortalA.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Juego Dragon/Escena4.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "Juego Dragon/Escena4.jpg",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Juego Dragon/escena5.jpeg",
+        "kind": "image",
+        "metadata": "",
+        "name": "Juego Dragon/escena5.jpeg",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Gemini_Generated_Image_8g4tgr8g4tgr8g4t__1_-removebg-preview2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Gemini_Generated_Image_8g4tgr8g4tgr8g4t__1_-removebg-preview2",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Gemini_Generated_Image_8g4tgr8g4tgr8g4t__1_-removebg-preview3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Gemini_Generated_Image_8g4tgr8g4tgr8g4t__1_-removebg-preview3",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Gemini_Generated_Image_8g4tgr8g4tgr8g4t__1_-removebg-preview4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Gemini_Generated_Image_8g4tgr8g4tgr8g4t__1_-removebg-preview4",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Gemini_Generated_Image_8g4tgr8g4tgr8g4t__1_-removebg-preview5.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Gemini_Generated_Image_8g4tgr8g4tgr8g4t__1_-removebg-preview5",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Gemini_Generated_Image_8g4tgr8g4tgr8g4t__1_-removebg-preview6.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Gemini_Generated_Image_8g4tgr8g4tgr8g4t__1_-removebg-preview6.png\"}",
+        "name": "Gemini_Generated_Image_8g4tgr8g4tgr8g4t__1_-removebg-preview6",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Juego Dragon/Troll1.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"Juego Dragon/Troll1.png\",\"extension\":\".png\"}",
+        "name": "Juego Dragon/Troll1.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Juego Dragon/Troll2.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"Juego Dragon/Troll2.png\",\"extension\":\".png\"}",
+        "name": "Juego Dragon/Troll2.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Juego Dragon/Troll3.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"Juego Dragon/Troll3.png\",\"extension\":\".png\"}",
+        "name": "Juego Dragon/Troll3.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/BarraVidaTrol.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/BarraVidaTrol.png\"}",
+        "name": "BarraVidaTrol",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Juego Dragon/Explosion.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"Juego Dragon/Explosion.png\",\"extension\":\".png\"}",
+        "name": "Juego Dragon/Explosion.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Juego Dragon/Explosion2.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"Juego Dragon/Explosion2.png\",\"extension\":\".png\"}",
+        "name": "Juego Dragon/Explosion2.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Juego Dragon/Troll3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Juego Dragon/Troll3",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Juego Dragon/Code_Generated_Image (3)9.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Juego Dragon/Code_Generated_Image (3)9",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Juego Dragon/Code_Generated_Image (3)10.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Juego Dragon/Code_Generated_Image (3)10",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Juego Dragon/Escena6.jpeg",
+        "kind": "image",
+        "metadata": "",
+        "name": "Juego Dragon/Escena6.jpeg",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Juego Dragon/gemini_generated_video_5fb80b7c.mp4",
+        "kind": "video",
+        "metadata": "",
+        "name": "Juego Dragon/gemini_generated_video_5fb80b7c.mp4",
+        "userAdded": false
+      },
+      {
+        "file": "assets/NotJamThirdDimension15.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/NotJamThirdDimension15.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Bitmap texts/Not Jam bitmap fonts/cedb59e36cd1c89a7a434384decaad8f2d9e0d5ca343c8c908994b4f3c4972f9_NotJamThirdDimension15.png",
+          "name": "NotJamThirdDimension15.png"
+        }
+      },
+      {
+        "file": "assets/NotJamThirdDimension15.fnt",
+        "kind": "bitmapFont",
+        "metadata": "",
+        "name": "assets/NotJamThirdDimension15.fnt",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Bitmap texts/Not Jam bitmap fonts/5390794bade6e52a53b8900628e93ab048109cd98502910fb3afa42bdf2a70cd_NotJamThirdDimension15.fnt",
+          "name": "NotJamThirdDimension15.fnt"
+        }
+      },
+      {
+        "file": "Juego Dragon/Historia.mp4",
+        "kind": "video",
+        "metadata": "",
+        "name": "Juego Dragon/Historia.mp4",
+        "userAdded": false
+      },
+      {
+        "file": "Juego Dragon/Sonidos/Escenas3.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Juego Dragon/Sonidos/Escenas3.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "Juego Dragon/Sonidos/Ambiente.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Juego Dragon/Sonidos/Ambiente.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "Juego Dragon/Sonidos/Clic Boton.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Juego Dragon/Sonidos/Clic Boton.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "Juego Dragon/Sonidos/Disparo.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Juego Dragon/Sonidos/Disparo.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "Juego Dragon/Sonidos/Brujas y duendes.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Juego Dragon/Sonidos/Brujas y duendes.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "Juego Dragon/Sonidos/MuerteDragon.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Juego Dragon/Sonidos/MuerteDragon.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "Juego Dragon/Sonidos/nakaradaalexander-winning-loop-228639.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Juego Dragon/Sonidos/nakaradaalexander-winning-loop-228639.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "Juego Dragon/Sonidos/Pelea.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Juego Dragon/Sonidos/Pelea.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "Juego Dragon/Sonidos/Ogro (2).mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Juego Dragon/Sonidos/Ogro (2).mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "Juego Dragon/Sonidos/boom.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Juego Dragon/Sonidos/boom.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "Juego Dragon/Arbol.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"Juego Dragon/Arbol.png\",\"extension\":\".png\"}",
+        "name": "Juego Dragon/Arbol.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Juego Dragon/Bruja.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"Juego Dragon/Bruja.png\",\"extension\":\".png\"}",
+        "name": "Juego Dragon/Bruja.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Gemini_Generated_Image_8g4tgr8g4tgr8g4t__1_-removebg-preview7.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Gemini_Generated_Image_8g4tgr8g4tgr8g4t__1_-removebg-preview7",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Juego Dragon/Cab2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Juego Dragon/Cab2.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Juego Dragon/Escena 3.jpeg",
+        "kind": "image",
+        "metadata": "",
+        "name": "Juego Dragon/Escena 3.jpeg",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Juego Dragon/FondoNivel2_4.jpeg",
+        "kind": "image",
+        "metadata": "",
+        "name": "Juego Dragon/FondoNivel2_4.jpeg",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Juego Dragon/Cab1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Juego Dragon/Cab1.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Juego Dragon/Sonidos/dmassaiii-it-looms-grows-259506 (1).mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Juego Dragon/Sonidos/dmassaiii-it-looms-grows-259506 (1).mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "Juego Dragon/Sonidos/phatphrogstudio-demon-horror-voice-sinister-laughter-582548.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Juego Dragon/Sonidos/phatphrogstudio-demon-horror-voice-sinister-laughter-582548.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "Juego Dragon/Sonidos/magmadang-only-fans-gangster-produced-by-magma-de-producer-223474.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Juego Dragon/Sonidos/magmadang-only-fans-gangster-produced-by-magma-de-producer-223474.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "Juego Dragon/2FondoNivel2.jpeg",
+        "kind": "image",
+        "metadata": "",
+        "name": "Juego Dragon/2FondoNivel2.jpeg",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Juego Dragon/Tesoro1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Juego Dragon/Tesoro1.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Juego Dragon/Tesoro2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Juego Dragon/Tesoro2.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Juego Dragon/2722247_16279.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "Juego Dragon/2722247_16279.jpg",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Juego Dragon/Sonidos/Risa de bruja.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Juego Dragon/Sonidos/Risa de bruja.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "Juego Dragon/Ladrillo.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Juego Dragon/Ladrillo.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Juego Dragon/Ladrillo Musgo.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Juego Dragon/Ladrillo Musgo.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Juego Dragon/Portalnivel2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Juego Dragon/Portalnivel2.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Juego Dragon/Ladrillo_nivel2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Juego Dragon/Ladrillo_nivel2.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Juego Dragon/Bola de Fuego.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"Juego Dragon/Bola de Fuego.png\",\"extension\":\".png\"}",
+        "name": "Juego Dragon/Bola de Fuego.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Gemini_Generated_Image_3c2jnj3c2jnj3c2j-removebg-preview.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Gemini_Generated_Image_3c2jnj3c2jnj3c2j-removebg-preview.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Gemini_Generated_Image_xfn3uqxfn3uqxfn3-removebg-preview.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Gemini_Generated_Image_xfn3uqxfn3uqxfn3-removebg-preview.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Gemini_Generated_Image_3c2jnj3c2jnj3c2j.jpeg",
+        "kind": "image",
+        "metadata": "",
+        "name": "Gemini_Generated_Image_3c2jnj3c2jnj3c2j.jpeg",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Gemini_Generated_Image_3c2jnj3c2jnj3c2j-removebg-preview2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Gemini_Generated_Image_3c2jnj3c2jnj3c2j-removebg-preview2.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Juego Dragon/Code_Generated_Image (3)11.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Juego Dragon/Code_Generated_Image (3)11",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Juego Dragon/Code_Generated_Image (3)12.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Juego Dragon/Code_Generated_Image (3)12",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Juego Dragon/Code_Generated_Image (3)13.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Juego Dragon/Code_Generated_Image (3)13",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Juego Dragon/Code_Generated_Image (3)14.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Juego Dragon/Code_Generated_Image (3)14",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Juego Dragon/Code_Generated_Image (3)15.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Juego Dragon/Code_Generated_Image (3)15",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Juego Dragon/prueba/dragon1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Juego Dragon/prueba/dragon1.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Juego Dragon/prueba/dragon2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Juego Dragon/prueba/dragon2.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Juego Dragon/prueba/dragon3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Juego Dragon/prueba/dragon3.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Juego Dragon/Code_Generated_Image (3)16.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Juego Dragon/Code_Generated_Image (3)16",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Juego Dragon/Code_Generated_Image (3)17.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Juego Dragon/Code_Generated_Image (3)17",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Juego Dragon/Code_Generated_Image (3)18.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Juego Dragon/Code_Generated_Image (3)18",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Juego Dragon/Code_Generated_Image (3)19.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Juego Dragon/Code_Generated_Image (3)19",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Juego Dragon/Portalnivel2_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Juego Dragon/Portalnivel2_1.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Juego Dragon/Portalnivel2_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Juego Dragon/Portalnivel2_2.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Juego Dragon/Fondo3recompensa.jpeg",
+        "kind": "image",
+        "metadata": "",
+        "name": "Juego Dragon/Fondo3recompensa.jpeg",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Juego Dragon/nivel2_b.mp4",
+        "kind": "video",
+        "metadata": "",
+        "name": "Juego Dragon/nivel2_b.mp4",
+        "userAdded": false
+      },
+      {
+        "file": "Juego Dragon/FondoX.jpeg",
+        "kind": "image",
+        "metadata": "",
+        "name": "Juego Dragon/FondoX.jpeg",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Juego Dragon/Brujafinal4.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"Juego Dragon/Brujafinal4.png\",\"extension\":\".png\"}",
+        "name": "Juego Dragon/Brujafinal4.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Juego Dragon/Brujafinal3.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"Juego Dragon/Brujafinal3.png\",\"extension\":\".png\"}",
+        "name": "Juego Dragon/Brujafinal3.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Juego Dragon/Brujafinal5.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"Juego Dragon/Brujafinal5.png\",\"extension\":\".png\"}",
+        "name": "Juego Dragon/Brujafinal5.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Juego Dragon/Gato.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"Juego Dragon/Gato.png\",\"extension\":\".png\"}",
+        "name": "Juego Dragon/Gato.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Juego Dragon/Code_Generated_Image (3)20.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Juego Dragon/Code_Generated_Image (3)20",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Juego Dragon/FondoPeleaBruja.jpeg",
+        "kind": "image",
+        "metadata": "",
+        "name": "Juego Dragon/FondoPeleaBruja.jpeg",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Juego Dragon/Fondopelaabruja.jpeg",
+        "kind": "image",
+        "metadata": "",
+        "name": "Juego Dragon/Fondopelaabruja.jpeg",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Juego Dragon/mur2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Juego Dragon/mur2.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Juego Dragon/mur1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Juego Dragon/mur1.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Juego Dragon/Fondo_Murci.jpeg",
+        "kind": "image",
+        "metadata": "",
+        "name": "Juego Dragon/Fondo_Murci.jpeg",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Juego Dragon/Sonidos/phatphrogstudio-demon-horror-voice-sinister-laughter-582548 (1).mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Juego Dragon/Sonidos/phatphrogstudio-demon-horror-voice-sinister-laughter-582548 (1).mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "Juego Dragon/Sonidos/sound4stock-halloween-spooky-music-620458.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Juego Dragon/Sonidos/sound4stock-halloween-spooky-music-620458.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "Juego Dragon/Sonidos/dmassaiii-heavy-metal-ex-mas-270014.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Juego Dragon/Sonidos/dmassaiii-heavy-metal-ex-mas-270014.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "Juego Dragon/Sonidos/Escena suspenso.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Juego Dragon/Sonidos/Escena suspenso.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "Juego Dragon/FondoGato.jpeg",
+        "kind": "image",
+        "metadata": "",
+        "name": "Juego Dragon/FondoGato.jpeg",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Juego Dragon/Hacha.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Juego Dragon/Hacha.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Juego Dragon/hacha2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Juego Dragon/hacha2.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Juego Dragon/Code_Generated_Image (3)21.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Juego Dragon/Code_Generated_Image (3)21",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Juego Dragon/Sonidos/bombinsound-halloween-funny-pumpkin-cute-horror-619376.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Juego Dragon/Sonidos/bombinsound-halloween-funny-pumpkin-cute-horror-619376.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "Juego Dragon/Finalfeliz.mp4",
+        "kind": "video",
+        "metadata": "",
+        "name": "Juego Dragon/Finalfeliz.mp4",
+        "userAdded": false
+      },
+      {
+        "file": "Juego Dragon/Sonidos/dmassaiii-heavy-metal-ex-mas-270014 (1).mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Juego Dragon/Sonidos/dmassaiii-heavy-metal-ex-mas-270014 (1).mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "Juego Dragon/Sonidos/final.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Juego Dragon/Sonidos/final.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "Juego Dragon/Finaljuego.mp4",
+        "kind": "video",
+        "metadata": "",
+        "name": "Juego Dragon/Finaljuego.mp4",
+        "userAdded": false
+      },
+      {
+        "file": "Juego Dragon/Sonidos/Nivel2.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Juego Dragon/Sonidos/Nivel2.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "Juego Dragon/portalfinal.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Juego Dragon/portalfinal.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Juego Dragon/portalfinal2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Juego Dragon/portalfinal2.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Juego Dragon/IconoVidas.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Juego Dragon/IconoVidas.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/IconoVidas.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "IconoVidas",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Juego Dragon/Dragon_perdio.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Juego Dragon/Dragon_perdio.png",
+        "smoothed": false,
+        "userAdded": false
+      }
+    ]
+  },
+  "objects": [
+    {
+      "adaptCollisionMaskAutomatically": false,
+      "assetStoreId": "",
+      "name": "Dragon",
+      "persistentUuid": "e230cb82-df95-4909-84c5-c42efa9ad539",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "TopDownMovement",
+          "type": "TopDownMovementBehavior::TopDownMovementBehavior",
+          "acceleration": 400,
+          "allowDiagonals": true,
+          "angleOffset": 0,
+          "angularMaxSpeed": 180,
+          "customIsometryAngle": 30,
+          "deceleration": 800,
+          "ignoreDefaultControls": false,
+          "maxSpeed": 200,
+          "movementAngleOffset": 0,
+          "rotateObject": false,
+          "useLegacyTurnBack": false,
+          "viewpoint": "TopDown"
+        }
+      ],
+      "animations": [
+        {
+          "name": "Dragon Volando",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.21,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Juego Dragon/prueba/dragon1.png",
+                  "points": [
+                    {
+                      "name": "Boca",
+                      "x": 110,
+                      "y": 47
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 108,
+                    "y": 41
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 53.5,
+                        "y": 15
+                      },
+                      {
+                        "x": 74.5,
+                        "y": 10.5
+                      },
+                      {
+                        "x": 130.5,
+                        "y": 58
+                      },
+                      {
+                        "x": 77.5,
+                        "y": 104
+                      },
+                      {
+                        "x": 12,
+                        "y": 79.5
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Juego Dragon/prueba/dragon2.png",
+                  "points": [
+                    {
+                      "name": "Boca",
+                      "x": 110,
+                      "y": 47
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 108,
+                    "y": 41
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 53.5,
+                        "y": 15
+                      },
+                      {
+                        "x": 74.5,
+                        "y": 10.5
+                      },
+                      {
+                        "x": 130.5,
+                        "y": 58
+                      },
+                      {
+                        "x": 77.5,
+                        "y": 104
+                      },
+                      {
+                        "x": 12,
+                        "y": 79.5
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Juego Dragon/prueba/dragon3.png",
+                  "points": [
+                    {
+                      "name": "Boca",
+                      "x": 110,
+                      "y": 47
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 108,
+                    "y": 41
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 53.5,
+                        "y": 15
+                      },
+                      {
+                        "x": 74.5,
+                        "y": 10.5
+                      },
+                      {
+                        "x": 130.5,
+                        "y": 58
+                      },
+                      {
+                        "x": 77.5,
+                        "y": 104
+                      },
+                      {
+                        "x": 12,
+                        "y": 79.5
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "limite",
+      "persistentUuid": "1b368768-0e57-417b-b9f9-a379f9975125",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "PathfindingObstacle",
+          "type": "PathfindingBehavior::PathfindingObstacleBehavior",
+          "cost": 2,
+          "impassable": false
+        }
+      ],
+      "animations": [
+        {
+          "name": "Limite escena",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Limite escena",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 64,
+                        "y": 0
+                      },
+                      {
+                        "x": 64,
+                        "y": 64
+                      },
+                      {
+                        "x": 0,
+                        "y": 64
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "bold": true,
+      "italic": false,
+      "name": "TextoVidas",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "Vidas",
+      "font": "",
+      "textAlignment": "left",
+      "characterSize": 25,
+      "color": {
+        "b": 255,
+        "g": 255,
+        "r": 255
+      },
+      "content": {
+        "bold": true,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "Vidas",
+        "font": "",
+        "textAlignment": "left",
+        "verticalTextAlignment": "top",
+        "characterSize": 25,
+        "lineHeight": 0,
+        "color": "255;255;255"
+      }
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "IconoVidas",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Juego Dragon/IconoVidas.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 43,
+                        "y": 73
+                      },
+                      {
+                        "x": 446,
+                        "y": 73
+                      },
+                      {
+                        "x": 446,
+                        "y": 319
+                      },
+                      {
+                        "x": 43,
+                        "y": 319
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "IconoVidas",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Juego Dragon/Dragon_perdio.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 43,
+                        "y": 73
+                      },
+                      {
+                        "x": 446,
+                        "y": 73
+                      },
+                      {
+                        "x": 446,
+                        "y": 319
+                      },
+                      {
+                        "x": 43,
+                        "y": 319
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "objectsFolderStructure": {
+    "folderName": "__ROOT",
+    "children": [
+      {
+        "objectName": "limite"
+      },
+      {
+        "objectName": "Dragon"
+      },
+      {
+        "objectName": "TextoVidas"
+      },
+      {
+        "objectName": "IconoVidas"
+      }
+    ]
+  },
+  "objectsGroups": [],
+  "variables": [
+    {
+      "name": "VidasDragon",
+      "type": "number",
+      "value": 6
+    }
+  ],
+  "layouts": [
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/escena1"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/escena2"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/escena3"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/escena4"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/escena5"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/escena6"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/escena7"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/escena8"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/escena9"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/escena10"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/escena11"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/cinematica"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/cinematica_inicio"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/cinematica_fin"
+    }
+  ],
+  "layoutsFolderStructure": {
+    "folderName": "__ROOT",
+    "children": [
+      {
+        "itemName": "Escena1"
+      },
+      {
+        "itemName": "Escena2"
+      },
+      {
+        "itemName": "Escena3"
+      },
+      {
+        "itemName": "Escena4"
+      },
+      {
+        "itemName": "Escena5"
+      },
+      {
+        "itemName": "Escena6"
+      },
+      {
+        "itemName": "Escena7"
+      },
+      {
+        "itemName": "Escena8"
+      },
+      {
+        "itemName": "Escena9"
+      },
+      {
+        "itemName": "Escena10"
+      },
+      {
+        "itemName": "Escena11"
+      },
+      {
+        "itemName": "Cinematica"
+      },
+      {
+        "itemName": "Cinematica_Inicio"
+      },
+      {
+        "itemName": "Cinematica_Fin"
+      }
+    ]
+  },
+  "externalEvents": [
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/externalEvents/controlesdragon"
+    }
+  ],
+  "externalEventsFolderStructure": {
+    "folderName": "__ROOT",
+    "children": [
+      {
+        "itemName": "ControlesDragon"
+      }
+    ]
+  },
+  "testsFolderStructure": {
+    "folderName": "__ROOT"
+  },
+  "eventsFunctionsExtensions": [
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/panelspritebutton"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/bounce"
+    }
+  ],
+  "externalLayouts": [],
+  "externalLayoutsFolderStructure": {
+    "folderName": "__ROOT"
+  }
+}
