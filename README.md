@@ -33,11 +33,16 @@ Para jugar o probar las mecánicas del juego en la versión de desarrollo, utili
 El juego está compuesto por un total de **11 Escenas** organizadas de la siguiente manera para construir la experiencia:
 
 * **Pantalla Principal:** Menú de inicio, opciones y selección de partida. 
----<img width="804" height="659" alt="image" src="https://github.com/user-attachments/assets/9e33c880-53c7-4434-9224-4904a5dd4ffa" />
+<img width="847" height="642" alt="image" src="https://github.com/user-attachments/assets/279c5be4-8670-4298-ab86-8f261fe2df21" />
+
 * **10 Escenas de Juego:** Los niveles de aventuras que el jugador debe superar cronológicamente, pasando por un portal.
-  <img width="495" height="384" alt="image" src="https://github.com/user-attachments/assets/f0a6fa65-f6ce-438f-961f-cdf62c86d83f" />
+  <img width="766" height="581" alt="image" src="https://github.com/user-attachments/assets/3359ae89-f0a2-4d78-a770-29febd5c4b4d" />
+  <img width="771" height="599" alt="image" src="https://github.com/user-attachments/assets/92d5e86f-feee-4e0f-9c3c-169e64a186ff" />
+
 * **3 Escenas Cinemáticas:** Secuencias animadas intercaladas entre los niveles, clave para ir narrando la historia del rescate de Drakaris.
-<img width="591" height="455" alt="image" src="https://github.com/user-attachments/assets/63051b08-9486-4e9f-846f-98525a9df9c5" />
+<img width="849" height="645" alt="image" src="https://github.com/user-attachments/assets/94133693-96ff-453d-a37e-1c7d799ca667" />
+<img width="836" height="653" alt="image" src="https://github.com/user-attachments/assets/bc68d013-2094-475b-b66a-6d9753f84144" />
+
 
 ## 🛠️ Guía para Desarrolladores (Cómo colaborar)
 
